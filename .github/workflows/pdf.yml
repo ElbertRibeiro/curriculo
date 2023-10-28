@@ -8,6 +8,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Install Pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+        shell: bash
+
       - name: Convert to PDF
         run: |
           pandoc -s -o curriculo.pdf *.md
