@@ -22,5 +22,6 @@ jobs:
 
       - name: Package PDF
         run: |
-          zip -r curriculo.zip output/curriculo.pdf
+          cd $GITHUB_WORKSPACE/output
+          zip -r curriculo.zip curriculo.pdf
         working-directory: $GITHUB_WORKSPACE
