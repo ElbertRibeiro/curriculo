@@ -31,6 +31,7 @@ jobs:
         shell: bash
 
   tag-commit:
+    needs: generate-pdf
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
