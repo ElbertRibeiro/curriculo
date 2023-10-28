@@ -10,13 +10,13 @@ jobs:
       - name: create file list
         id: files_list
         run: |
-          mkdir output  # create output dir
+          mkdir output
           echo "files=$(printf '"%s" ' *.md)" > $GITHUB_OUTPUT
 
       - uses: docker://pandoc/latex:2.9
         with:
           args: --output=output/curriculo.pdf ${{ steps.files_list.outputs.files }}
-          
+
       - uses: actions/upload-artifact@v3
         with:
           name: output
