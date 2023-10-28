@@ -1,0 +1,25 @@
+name: Create Tag
+
+on:
+  push:
+    branches:
+      - main  # Troque para a branch desejada
+
+jobs:
+  create_tag:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Create Tag
+      run: |
+        # Define a versão/tag com base na data atual
+        TAG="v$(date +'%Y%m%d%H%M%S')"
+
+        # Cria a tag
+        git tag $TAG
+
+        # Empurra a tag para o repositório remoto
+        git push origin $TAG
