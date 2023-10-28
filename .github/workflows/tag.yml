@@ -3,7 +3,7 @@ name: Criar Tag na Alteração da Master
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   criar-tag:
