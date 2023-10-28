@@ -13,14 +13,15 @@ jobs:
       - name: Verificar código-fonte
         uses: actions/checkout@v2
 
-      - name: Instalar Pandoc
+      - name: Instalar Pandoc e lualatex
         run: |
           sudo apt-get -y update
           sudo apt-get install -y pandoc
+          sudo apt-get install -y texlive-luatex
 
       - name: Converter curriculo.md para PDF
         run: |
-          pandoc -s curriculo.md -o curriculo.pdf
+          pandoc -s curriculo.md -o curriculo.pdf --pdf-engine=lualatex
 
       - name: Commit e empurre o PDF gerado
         run: |
