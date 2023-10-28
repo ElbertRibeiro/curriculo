@@ -1,37 +1,17 @@
-name: Criar Tag na Alteração da Master
-
+name: Tag version
 on:
   push:
     branches:
       - main
-
 jobs:
-  criar-tag:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checar para Versão Existentes
-      id: check-version
-      run: echo ::set-output name=existing_tag::$(git tag --list 'v*')
-
-    - name: Calcular Nova Versão
-      id: calculate-version
-      run: |
-        existing_tag="${{ steps.check-version.outputs.existing_tag }}"
-        if [ -z "$existing_tag" ]; then
-          new_tag="v1.0.0"
-        else
-          last_version=$(echo "$existing_tag" | sort -V | tail -n 1)
-          new_tag=$(python -c "import semver; print(semver.bump_patch('$last_version'))")
-        fi
-        echo "::set-output name=new_tag::$new_tag"
-
-    - name: Criar e Enviar Tag
-      id: create-and-push-tag
-      run: |
-        new_tag="${{ steps.calculate-version.outputs.new_tag }}"
-        git tag "$new_tag"
-        git push origin "$new_tag"
-
-    - name: Ação Concluída
-      run: echo "Ação concluída. Nova tag criada: ${{ steps.calculate-version.outputs.new_tag }}"
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: '0'
+    - name: Bump version and push tag
+      uses: anothrNick/github-tag-action@1.36.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        WITH_V: false
