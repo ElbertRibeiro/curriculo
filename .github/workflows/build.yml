@@ -21,3 +21,8 @@ jobs:
         with:
           name: output
           path: output
+
+      - uses: actions/download-artifact@v3
+        with:
+          name: output
+          path: output
