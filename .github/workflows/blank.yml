@@ -15,18 +15,13 @@ jobs:
           echo "dolor sit amet" > lorem_2.md
           mkdir output  # create output dir
           # this will also include README.md
-          echo "files=$(printf '"%s" ' *.md)" >> $GITHUB_ENV
-          
+          echo "files=$(printf '"%s" ' *.md)" > $GITHUB_OUTPUT
+
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --output=output/result.pdf ${{ env.files }}
-
-      - name: Create ZIP file
-        run: |
-          zip -r output.zip output/
-        working-directory: ${{ github.workspace }}
-
+          args: --output=output/result.pdf ${{ steps.files_list.outputs.files }}
+          
       - uses: actions/upload-artifact@v3
         with:
-          name: output-zip
-          path: output.zip
+          name: output
+          path: output
