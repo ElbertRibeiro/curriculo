@@ -1,5 +1,4 @@
-name: Advanced Usage
-
+name: Create PDF
 on: push
 
 jobs:
