@@ -1,0 +1,33 @@
+name: Converter curriculo.md para PDF e commitar na main
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Verificar código-fonte
+        uses: actions/checkout@v2
+
+      - name: Instalar Pandoc
+        run: |
+          sudo apt-get -y update
+          sudo apt-get install -y pandoc
+
+      - name: Converter curriculo.md para PDF
+        run: |
+          pandoc -s curriculo.md -o curriculo.pdf
+
+      - name: Commit e empurre o PDF gerado
+        run: |
+          git config --local user.email "you@example.com"
+          git config --local user.name "Your Name"
+          git add curriculo.pdf
+          git commit -m "Adicionar currículo em PDF"
+          git push origin main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
