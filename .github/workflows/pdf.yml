@@ -14,6 +14,11 @@ jobs:
           sudo apt-get install -y pandoc
         shell: bash
 
+      - name: Install LaTeX
+        run: |
+          sudo apt-get install -y texlive-xetex
+        shell: bash
+
       - name: Convert to PDF
         run: |
           pandoc -s -o curriculo.pdf *.md
