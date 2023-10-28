@@ -22,8 +22,8 @@ jobs:
 
       - name: Commit PDF and Push
         run: |
-          git config --local user.email "you@example.com"
-          git config --local user.name "Your Name"
+          git config --local user.email "githubaction@example.com"
+          git config --local user.name "GitHub Action"
           git add output/curriculo.pdf
           git commit -m "Adicionar currículo em PDF"
           git push origin $GITHUB_REF
