@@ -49,6 +49,7 @@ jobs:
       - name: create file list
         id: files_list
         run: |
+          mkdir output
           echo "files=$(printf '"%s" ' *.md)" > $GITHUB_OUTPUT
 
       - uses: docker://pandoc/latex:2.9
