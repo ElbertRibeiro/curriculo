@@ -1,3 +1,38 @@
+#name: Converter curriculo.md para PDF e commitar na main
+#
+#on:
+#  push:
+#    branches:
+#      - main
+#
+#jobs:
+#  commit:
+#    runs-on: ubuntu-22.04
+#    steps:
+#      - uses: actions/checkout@v2
+#
+#      - name: Create file list
+#        id: files_list
+#        run: |
+#          mkdir output
+#          echo "files=$(printf '"%s" ' *.md)" > $GITHUB_WORKSPACE/output/files_list
+#          echo "output/curriculo.pdf" > $GITHUB_WORKSPACE/output/pdflist
+#        continue-on-error: true
+#        shell: bash
+#
+#      - uses: docker://pandoc/latex:2.9
+#        with:
+#          args: --output=output/curriculo.pdf ${{ steps.files_list.outputs.files }}
+#
+#      - name: Commit PDF and Push
+#        run: |
+#          git config --local user.email "you@example.com"
+#          git config --local user.name "Your Name"
+#          git add output/curriculo.pdf
+#          git commit -m "Adicionar currículo em PDF"
+#          git push origin $GITHUB_REF
+#        continue-on-error: true
+#        shell: bash
 name: Converter curriculo.md para PDF e commitar na main
 
 on:
@@ -9,16 +44,13 @@ jobs:
   commit:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-      - name: Create file list
+      - name: create file list
         id: files_list
         run: |
           mkdir output
-          echo "files=$(printf '"%s" ' *.md)" > $GITHUB_WORKSPACE/output/files_list
-          echo "output/curriculo.pdf" > $GITHUB_WORKSPACE/output/pdflist
-        continue-on-error: true
-        shell: bash
+          echo "files=$(printf '"%s" ' *.md)" > $GITHUB_OUTPUT
 
       - uses: docker://pandoc/latex:2.9
         with:
