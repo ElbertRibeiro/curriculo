@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  commit:
+  generate-pdf:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
@@ -29,3 +29,19 @@ jobs:
           git push origin $GITHUB_REF
         continue-on-error: true
         shell: bash
+
+  tag-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Bump version and push tag
+        id: tag_version
+        uses: mathieudutour/github-tag-action@v6.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create a GitHub release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ steps.tag_version.outputs.new_tag }}
+          name: Release ${{ steps.tag_version.outputs.new_tag }}
+          body: ${{ steps.tag_version.outputs.changelog }}
