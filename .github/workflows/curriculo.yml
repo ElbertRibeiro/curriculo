@@ -33,7 +33,7 @@ jobs:
           git add output/curriculo.pdf
           git commit -m "Adicionar currículo em PDF"
           git push origin $GITHUB_REF
-        continue-on-error: true
+        continue-on-error: false
         shell: bash
 
   tag-commit:
