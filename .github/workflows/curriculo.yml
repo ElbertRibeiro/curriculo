@@ -19,8 +19,6 @@ jobs:
       - uses: docker://pandoc/latex:2.9
         with:
           args: --output=output/curriculo.pdf ${{ steps.files_list.outputs.files }}
-          env:
-            PANDOC_PDF_OPTS: "--variable=geometry:margin=1in"
 
       - name: Commit PDF and Push
         run: |
