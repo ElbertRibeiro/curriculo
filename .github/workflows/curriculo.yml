@@ -20,6 +20,12 @@ jobs:
         with:
           args: --output=output/curriculo.pdf ${{ steps.files_list.outputs.files }}
 
+  commit-pdf:
+    needs: generate-pdf
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+
       - name: Commit PDF and Push
         run: |
           git config --local user.email "githubaction@example.com"
