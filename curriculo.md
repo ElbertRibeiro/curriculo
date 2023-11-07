@@ -113,3 +113,7 @@ Meu GitHub para visualizar outros projetos desenvolvidos por mim, entre eles, ap
 * Espanhol: conversação básica. 
 * Inglês: leitura básica, conversação básica. 
 
+----
+
+> [!NOTE]  
+> Este Curriculo foi gerado gerado de forma automatica, codigo fonte do projeto: https://github.com/ElbertRibeiro/curriculo
