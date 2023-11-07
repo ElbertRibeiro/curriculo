@@ -1,14 +1,14 @@
 # Elbert Nilton Batista Ribeiro
 
-Nacionalidade: Brasileiro
-Idade: 25 anos
-Estado Civil: Solteiro
-CPF (BRA): 021.535.142-82
-Endereço: 67035-250, Ananindeua, Pará
-Whatsapp: (91) 981477039
-Email: [elbertprofissional@gmail.com](mailto:elbertprofissional@gmail.com)
-Linkedin: [linkedin.com/in/elbert-ribeiro/](https://www.linkedin.com/in/elbert-ribeiro/)
-Portfólio: [elbertribeiro.com](https://elbertribeiro.com/)
+* Nacionalidade: Brasileiro 
+* Idade: 25 anos
+* Estado Civil: Solteiro
+* CPF (BRA): 021.535.142-82
+* Endereço: 67035-250, Ananindeua, Pará
+* Whatsapp: (91) 981477039
+* Email: [elbertprofissional@gmail.com](mailto:elbertprofissional@gmail.com)
+* Linkedin: [linkedin.com/in/elbert-ribeiro/](https://www.linkedin.com/in/elbert-ribeiro/)
+* Portfólio: [elbertribeiro.com](https://elbertribeiro.com/)
 
 ## Objetivo
 
