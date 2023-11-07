@@ -1,7 +1,7 @@
 # Elbert Nilton Batista Ribeiro
 
 - Nacionalidade: Brasileiro
-- Idade: 24 anos
+- Idade: 25 anos
 - Estado Civil: Solteiro
 - CPF (BRA): 021.535.142-82
 - Endereço: 67035-250, Ananindeua, Pará
@@ -22,7 +22,7 @@ Gosto de trabalhar em uma equipe onde posso aprender e contribuir para organiza�
 
 ### Escolaridade
 
-- Ensino Superior Cursando (2017-2022)
+- Ensino Superior (2017-2022)
   - Curso: Engenharia da Computação
   - Instituição: Faculdade Estácio de Belém
 
@@ -82,4 +82,4 @@ Gosto de trabalhar em uma equipe onde posso aprender e contribuir para organiza�
 ### Freelancer – (sem registro em carteira)
 
 - Técnico em Informática, de 07/2015 a 12/06/2016.
-  - Prestava serviços de manutenção de computadores. Os serviços realizados, em sua maioria, eram de formatação e instalação de
+  - Prestava serviços de manutenção de computadores. Os serviços realizados, em sua maioria, eram de formatação e instalação de programas (incluindo o pacote office), configurações aplicadas ao computador com objetivo de obter maior desempenho e recuperação de arquivos. 
