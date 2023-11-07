@@ -83,3 +83,33 @@ Gosto de trabalhar em uma equipe onde posso aprender e contribuir para organiza�
 
 - Técnico em Informática, de 07/2015 a 12/06/2016.
   - Prestava serviços de manutenção de computadores. Os serviços realizados, em sua maioria, eram de formatação e instalação de programas (incluindo o pacote office), configurações aplicadas ao computador com objetivo de obter maior desempenho e recuperação de arquivos. 
+
+## Projetos 
+
+### Sistema de Gestão de Alunos
+- (https://github.com/ElbertRibeiro/Student-Management-System) 
+Este é um sistema de gestão de alunos onde o usuário pode criar um 
+banco de dados, registrar alunos, excluir e atualizar dados. Este programa foi desenvolvido após ser verificado que algumas escolas não tinham um sistema informatizado para controle dos documentos de alunos. Como 
+tecnologias, foi utilizado Python e Sqlite para o banco de dados.
+
+### Gerenciamento de tarefas 
+- (https://github.com/ElbertRibeiro/todo-list-electronJS) 
+Este programa foi desenvolvido com o objetivo de ser um To-do List onde o usuário lista a tarefa a ser realizada e marca a mesma após concluída. Este programa foi construído utilizando JavaScript e HTML.
+
+### Site - Spiderman 
+- (https://github.com/ElbertRibeiro/spiderman) 
+Site desenvolvido utilizando HTML, JavaScript e SCSS(CSS), este projeto foi desenvolvido durante um curso e teve como objetivo praticar e evoluir minhas habilidades no desenvolvimento web. Para visualizar este projeto em execução basta entrar no link (https://elbertribeiro.github.io/spiderman/).
+
+###  Site - Dev-Finance 
+- (https://github.com/ElbertRibeiro/MaratonaDiscover) 
+Este projeto foi desenvolvido utilizando HTML, JavaScript e CSS, em um evento online. O objetivo deste projeto foi evoluir minhas habilidades técnicas de desenvolvimento utilizando as boas práticas, clean code e a melhor estrutura de código possível.Para visualizar este projeto em execução basta entrar no link (https://elbertribeiro.github.io/MaratonaDiscover/). 
+
+### Portfólio 
+- (https://github.com/ElbertRibeiro) 
+Meu GitHub para visualizar outros projetos desenvolvidos por mim, entre eles, aplicações em desenvolvimento e projetos acadêmicos. Para uma visão geral sobre minhas habilidades técnicas basta visualizar meu site pessoal 
+(https://elbertribeiro.github.io/).
+
+## Idiomas 
+* Espanhol: conversação básica. 
+* Inglês: leitura básica, conversação básica. 
+
