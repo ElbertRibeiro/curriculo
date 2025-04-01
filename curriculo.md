@@ -12,7 +12,7 @@
 
 ## Objetivo
 
-Em busca de uma oportunidade em desenvolvimento front-end ou back-end, em um ambiente que favoreça o aprendizado e o crescimento profissional onde posso ajudar a organização a crescer e desenvolver novas soluções.
+Em busca de uma oportunidade como desenvolvedor backend ou DevOps, em um ambiente que estimule a inovação e o aprimoramento contínuo, onde eu possa contribuir para a evolução da infraestrutura e do desenvolvimento de soluções escaláveis, impulsionando o crescimento da organização.
 
 ## Perfil Profissional
 
