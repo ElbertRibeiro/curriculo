@@ -16,7 +16,7 @@ Em busca de uma oportunidade como desenvolvedor backend ou DevOps, em um ambient
 
 ## Perfil Profissional
 
-Gosto de trabalhar em uma equipe onde posso aprender e contribuir para organização, além de estudar metodologias ágeis e novas técnicas de programação como clean code, e padrões de projeto, para desenvolver e melhorar os softwares desenvolvidos.
+Gosto de atuar em equipes colaborativas, onde posso aprender e contribuir para a otimização da infraestrutura e dos processos de desenvolvimento. Tenho interesse em estudar e aplicar práticas de CI/CD, automação, monitoramento e segurança, além de explorar metodologias ágeis e boas práticas como infraestrutura como código (IaC) e observabilidade para garantir a eficiência e a confiabilidade dos sistemas.
 
 ## Formação
 
