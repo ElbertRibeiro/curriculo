@@ -18,7 +18,7 @@ jobs:
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: -V geometry:margin=2cm --output=output/curriculo.pdf ${{ steps.files_list.outputs.files }}
+          args: --metadata-file=config.yaml --output=output/curriculo.pdf ${{ steps.files_list.outputs.files }}
 
       - name: Commit PDF and Push
         run: |
