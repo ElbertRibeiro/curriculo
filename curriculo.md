@@ -59,8 +59,6 @@ Gosto de atuar em equipes colaborativas, onde posso aprender e contribuir para a
 - Estagiário, de 06/02/2020 - 06/06/2021.
   - Suporte técnico, manutenção de sites e atendimento de primeiro nível.
 
-Agora seu perfil está mais objetivo e chamativo. Precisa de algum ajuste?
-
 ### COSANPA - Companhia de Saneamento do Pará
 
 - Estagiário, de 20/08/2018 – 20/08/2020.
