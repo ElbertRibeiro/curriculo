@@ -3,7 +3,6 @@
 * Nacionalidade: Brasileiro 
 * Idade: 26 anos
 * Estado Civil: Solteiro
-* CPF (BRA): 021.535.142-82
 * Endereço: 67035-250, Ananindeua, Pará
 * Whatsapp: (91) 981477039
 * Email: [elbertprofissional@gmail.com](mailto:elbertprofissional@gmail.com)
