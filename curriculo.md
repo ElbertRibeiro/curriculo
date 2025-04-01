@@ -115,5 +115,4 @@ Meu GitHub para visualizar outros projetos desenvolvidos por mim, entre eles, ap
 
 ----
 
-> Este Curriculo foi gerado gerado de forma automatica,
-> codigo fonte do projeto: https://github.com/ElbertRibeiro/curriculo
+> Este Curriculo foi gerado gerado de forma automatica, codigo fonte do projeto: [curriculo](https://github.com/ElbertRibeiro/curriculo)
