@@ -30,42 +30,36 @@ Gosto de atuar em equipes colaborativas, onde posso aprender e contribuir para a
 
 ### Cursos Complementares
 
-- Formação Oracle One: Linkedin - Alura (fevereiro/2021)
-- Certificado de Autoridade JavaScript - DevMedia (dezembro/2020)
-- Certificado de Autoridade Html - DevMedia (dezembro/2020)
-- Certificado de Autoridade Padrão MVC - DevMedia (outubro/2020)
-- Certificação ITIL FOUNDATION 1-4 - Alura (março/2020)
-- Minha primeira app Java e Hibernate - DevMedia (novembro/2019)
-- Angular: Conectando com uma API Restful - DevMedia (outubro/2019)
-- Python para Android - Udemy (setembro/2019)
-- Teste Unitário - DevMedia (agosto/2019)
-- Monitoria - Faculdade Estácio de Belém (novembro/2018)
-- Assistente Administrativo - Proativa do Pará (outubro/2018)
-- Manutenção de microcomputador - Escola Salesiana do Trabalho (dezembro/2016)
-- Inglês básico, MICROCAMP- Centro de Formação Profissional (novembro/2015)
-- Informática avançada com ênfase em trabalhos na plataforma Excel, FACI-FACULDADE IDEAL (junho/2011)
+- Cloud-native API Administration with Red Hat 3scale API Management - REDHAT (abril/2025)
+- Red Hat OpenShift Developer I: Introduction to Containers with Podman (DO188) - Ver. 4.14 - REDHAT (fevereiro/2025)
+- Comunicação Empática e Assertiva para o Trabalho - K21 (maio/2024)
+- Spring framework com Spring Boot - DIO (abril/2024)
+- Estimativas para Produtos - K21 (março/2024)
+- Arquitetura Orientada a Eventos com Java, Spring Boot e Kafka - DIO (junho/2023)
 
 ## Experiências Profissionais
 
 ### SEFA – Secretaria de Estado de Fazenda do Pará
 
 - Arquiteto de soluções de software, de 01/04/2025 - Atualmente.
-  - Como arquiteto de software, sou responsável pelo desenho e evolução da arquitetura de sistemas, garantindo escalabilidade, desempenho e segurança das aplicações. Atuo na definição de padrões, boas práticas e tecnologias para o desenvolvimento, além de apoiar a equipe na implementação de soluções eficientes e robustas. Minha atuação inclui a análise e modelagem de sistemas distribuídos, integração de microsserviços, definição de estratégias de cloud computing e automação de processos. Também colaboro diretamente com equipes de desenvolvimento, produto e infraestrutura para garantir que as soluções atendam às necessidades do negócio de forma sustentável. As tecnologias utilizadas no dia a dia incluem: Java 11+, Spring Boot, Microsserviços, Red Hat OpenShift, Red Hat 3scale API Management, Red Hat Build of Keycloak (RHBK) para identidade e acesso, Red Hat AMQ Streams (Kafka), Banco de Dados Oracle e PostgreSQL. Além disso, aplico princípios de DevOps, CI/CD com OpenShift Pipelines, mensageria orientada a eventos, e metodologias ágeis (Scrum/Kanban) utilizando ClickUp e Jira
+  - Lidero a arquitetura de sistemas, garantindo escalabilidade, desempenho e segurança. Especialista em microsserviços, cloud computing e automação, colaboro com times de desenvolvimento, produto e infraestrutura. Tech stack: Java 8+, Spring Boot, OpenShift, Keycloak, Kafka, PostgreSQL, DevOps (CI/CD).
 
 - Analista Sênior, de 01/07/2023 - 01/04/2025.
-  - Como desenvolvedor sênior, atuo na liderança técnica da equipe de desenvolvimento e sustentação, sendo responsável pelo desenho e implementação de arquiteturas escaláveis, revisão de código e otimização de Web Services que integram diversos sistemas. Além do desenvolvimento de soluções complexas, participo ativamente da definição de boas práticas, padronização de código e melhoria contínua da performance das aplicações. Minha atuação inclui a mentoria de desenvolvedores juniores e plenos, suporte na tomada de decisões estratégicas, refinamento de requisitos técnicos e resolução de desafios críticos relacionados à infraestrutura, segurança e escalabilidade. As tecnologias utilizadas no dia a dia incluem: Java 8+, Spring Boot, Microsserviços, Docker, Kubernetes, Banco de Dados Oracle e PostgreSQL, Weblogic, Jenkins, Kafka, Redis, Elasticsearch e mensageria com RabbitMQ. Além disso, aplico metodologias ágeis (Scrum/Kanban) utilizando ClickUp e Jira.
+  - Atuei como líder técnico, projetando arquiteturas escaláveis e otimizando Web Services. Mentor de desenvolvedores, contribuí para padrões, performance e segurança. Tech stack: Java 8+, Kubernetes, Docker, Kafka, Redis, Elasticsearch.
 
 - Analista Pleno, de 01/10/2022 - 01/07/2023.
-  - Como desenvolvedor pleno, atuo na equipe de desenvolvimento e sustentação, sendo responsável pela criação, manutenção e otimização de Web Services que integram diversos sistemas e camadas da aplicação. Além do desenvolvimento de novas funcionalidades, também colaboro na definição de arquiteturas escaláveis e na melhoria contínua do código. Minha atuação inclui suporte técnico a desenvolvedores juniores, revisão de código, refinamento de requisitos junto ao time de produto e resolução de problemas complexos relacionados à infraestrutura e performance das aplicações. As tecnologias utilizadas no dia a dia incluem: Java 8+, Spring Boot, Docker, Kubernetes, Banco de Dados Oracle, Microsserviços, Weblogic, Jenkins, Kafka, Redis e metodologias ágeis (Scrum/Kanban) com ClickUp e Jira.
+  - Desenvolvimento e sustentação de Web Services, otimização de código e suporte técnico a juniores. Tech stack: Java 8+, Spring Boot, Docker, Kubernetes, Oracle.
 
 - Analista Junior, de 01/01/2022 - 01/10/2022.
-  - Como analista júnior, tenho atuado na equipe de desenvolvimento e sustentação, criando e customizando Web Services que interligam o sistema com outras camadas, auxilio outros desenvolvedores em projetos, além de trabalhar nos projetos atribuídos ao meu time. Atuo também como facilitador quando há necessidade de solucionar algum problema técnico com relação ao desenvolvimento e/ou a infraestrutura. As tecnologias utilizadas no dia a dia são: Docker, Banco de dados Oracle, JAVA 8, Spring, Clickup (Kanban), Weblogic e Jenkins.
+  - Criação e manutenção de Web Services, suporte técnico e integração de sistemas. Tech stack: Java 8, Spring, Docker, Oracle.
 
 - Trainee, de 07/06/2021 - 31/12/2021.
-  - Atuo diretamente na equipe de desenvolvimento, criando e customizando Web Services que interligam o sistema com outras camadas. Utilização das tecnologias Java 8, Spring Boot, REST, JPA, JSP, Jenkins, Jasper, GitLab, Maven, arquitetura de micros serviços, Weblogic e Oracle.
+  - Desenvolvimento de Web Services e integração de sistemas com Java 8, Spring Boot e Oracle.
 
 - Estagiário, de 06/02/2020 - 06/06/2021.
-  - Desenvolvo atividades voltadas ao suporte ao usuário como; identificar problemas relacionados ao computador e fornecer assistência remota, instruir os usuários a como solucionar erros mapeados e documentados. Realizo também atendimento de primeiro nível para problemas no sistema e no Portal da Sefa, onde é possível identificar se o erro é pontual ou uma falha dos serviços em caso de falhas, a equipe responsável pelo serviço é acionada e atribuída ao chamado. Realizo alterações no site interno da SEFA e no site da SEFA, como alteração das publicações, notícias e atualizações sobre os serviços disponibilizados pela Secretaria.
+  - Suporte técnico, manutenção de sites e atendimento de primeiro nível.
+
+Agora seu perfil está mais objetivo e chamativo. Precisa de algum ajuste?
 
 ### COSANPA - Companhia de Saneamento do Pará
 
