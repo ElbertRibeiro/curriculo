@@ -79,7 +79,7 @@ Gosto de atuar em equipes colaborativas, onde posso aprender e contribuir para a
 - Estagiário, de 13/06/2016 a 14/10/2016.
   - Atividades desenvolvidas voltadas a manutenção de computadores, como; formatação das máquinas, identificação e troca de componentes danificados, limpeza interna dos computadores, produção de planilhas para o setor administrativo e criação de um banco de dados simples utilizando a Microsoft Access.
 
-### Freelancer – (sem registro em carteira)
+### Freelancer
 
 - Técnico em Informática, de 07/2015 a 12/06/2016.
   - Prestava serviços de manutenção de computadores. Os serviços realizados, em sua maioria, eram de formatação e instalação de programas (incluindo o pacote office), configurações aplicadas ao computador com objetivo de obter maior desempenho e recuperação de arquivos. 
